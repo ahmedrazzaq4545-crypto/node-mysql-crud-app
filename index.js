@@ -48,6 +48,7 @@ app.get("/",(req,res)=>{
       let count = results[0].count;
       console.log(results)
       res.render("home.ejs",{count});
+      
 }
 );
 })
