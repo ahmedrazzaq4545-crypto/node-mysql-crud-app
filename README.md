@@ -31,18 +31,6 @@ This application demonstrates how a web application communicates with a SQL data
 - MySQL Server
 - Git
 
-## Getting Started
-
-1. Clone this repository.
-2. Install dependencies:
-
-   `npm install`
-
-
-3. Create a MySQL database named `deltaApp`.
-4. Configure your local `.env` file using `.env.example`.
-5. Create the required `user` table and configure its columns.
-6. Start the application using the start script defined in `package.json`.
 
 ## Environment Variables
 
@@ -63,4 +51,4 @@ Configure `DB_HOST`, `DB_USER`, `DB_PASSWORD`, and `DB_NAME` in your local `.env
 - Add user creation functionality if not already implemented
 - Add input validation and error handling
 - Improve the UI and responsiveness
-- Add secure authentication and password hashing if authentication is introduced
+- Add secure authentication and password hashing if authentication is introduced.
